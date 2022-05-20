@@ -1,10 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissor Lizard Spock</title>
+    <link rel="stylesheet" href="css/homepage.css">
 </head>
 <body>
-
+<div class="selections"> <!--Here the different options are displayed-->
+    <button class="selection" data-selection="rock">✊</button> <!--data-selection, sets the data to the actual data that was selected, so I know what button was selected in js-->
+    <button class="selection" data-selection="paper">🤚</button>
+    <button class="selection" data-selection="scissor">✌</button>
+    <button class="selection" data-selection="lizard">🦎</button>
+    <button class="selection" data-selection="spock">🖖</button> <!--These are the individual buttons, the emojis get rendered automatically in html-->
+</div>
+<div class="results"> <!--This is the results section-->
+    <div>you <!--you (player) section-->
+        <span class="result-score" data-your-score>0</span> <!--score from player-->
+    </div>
+    <div data-final-column> <!--computer section-->
+        computer
+        <span class="result-score" data-computer-score>0</span> <!--score from computer-->
+    </div>
+   <!-- <div class="result-selection.winner">✊</div>
+    <div class="result-selection">✌</div> -->
+</div>
+<button class="button" title="weak" type="button" onClick="reset();">Reset Game</button>
+<script src="script.js" defer></script> <!--defer makes sure that js is loaded after html is loaded into page-->
 </body>
 </html>

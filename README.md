@@ -24,16 +24,16 @@
 ---
 ## Goals
 
-- [] Have 5 buttons that the player can press to change their pick
+- [x] Have 5 buttons that the player can press to change their pick
 - [] Have another button to let the computer pick one and show the winner
-- [] Let the player know they won (no alert box)
+- [x] Let the player know they won (no alert box)
 - [] Have a reset button
 ---
 - [] Use comments
 - [] Start with a plan of attack
-- [] Have good file structure
+- [x] Have good file structure
 - [] Have good commit messages
-- [] Use scss
+- [x] Use scss
 - [] Get the page online on GitHub Pages
 - [] Regularly update readme
 - [] Make it responsive
@@ -47,29 +47,32 @@
 - [] Add even more options (but avoid using 100 if statements)
 - [] Add complex rules
 - [] Have a countdown after player choice
+- [] Have a tie count
 
 ---
 ## Roadmap
 
-- [] File structure
+- [x] File structure
 - [] Make basic lay-out in gimp
-- [] find images for
-  - [] Rock
-  - [] Paper
-  - [] Scissor
-  - [] Lizard
-  - [] Spock
+- [x] find images for (welp, it became emoji's)
+  - [x] Rock
+  - [x] Paper
+  - [x] Scissor
+  - [x] Lizard
+  - [x] Spock
 
 ---
 ## To-do (fix)
 
-- []
+- [] comment js/scss
+- [] reset button
+- [] improve readme
 
 ---
 ## To-do (features)
 
-- [] add hidden power-up 
-
+- [] Add hidden power-up 
+- [] Add difficulty settings
 ---
 ## What have I learned?
 * Start with readme and think before doing

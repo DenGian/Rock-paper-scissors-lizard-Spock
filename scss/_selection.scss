@@ -1,0 +1,11 @@
+.selection{
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 3.3rem;
+  transition: 200ms;
+}
+.selection:hover{
+  transform: scale(1.2);
+}
