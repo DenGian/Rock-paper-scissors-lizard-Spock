@@ -50,11 +50,18 @@ body {
 .button {
   color: red;
   background-color: black;
+  border: none;
   cursor: pointer;
-  position: fixed;
   display: flex;
-  justify-content: center;
-  bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.6rem;
+}
+
+img {
+  opacity: 0.75;
+  position: absolute;
+  right: 0.5rem;
 }
 
 /*# sourceMappingURL=homepage.css.map */

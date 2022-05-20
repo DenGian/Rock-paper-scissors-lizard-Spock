@@ -25,12 +25,12 @@ const SELECTIONS = [
     },
     {
         name: 'scissor',
-        emoji: '✌',
+        emoji: '✌️',
         beats:'lizard'
     },
     {
         name: 'scissor',
-        emoji: '✌',
+        emoji: '✌️',
         beats:'paper'
     },
     {
@@ -98,4 +98,8 @@ function randomSelection (){
 function reset (){
     yourScoreSpan.innerText = '0'
     computerScoreSpan.innerText = '0'
-}
+    let toDelete = document.querySelectorAll('div.result-selection')
+    console.log(toDelete)
+    for (let i = 0; i < toDelete.length; i++) {
+        toDelete[i].remove();
+}}

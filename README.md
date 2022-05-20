@@ -27,26 +27,25 @@
 - [x] Have 5 buttons that the player can press to change their pick
 - [] Have another button to let the computer pick one and show the winner
 - [x] Let the player know they won (no alert box)
-- [] Have a reset button
+- [x] Have a reset button
 ---
 - [] Use comments
 - [] Start with a plan of attack
 - [x] Have good file structure
 - [] Have good commit messages
 - [x] Use scss
-- [] Get the page online on GitHub Pages
+- [x] Get the page online on GitHub Pages
 - [] Regularly update readme
-- [] Make it responsive
+- [] Make it responsive (still need to do the image)
 
 ---
 ## Nice to haves
 
-- [] Nice graphics
+- [x] Nice graphics
 - [] Let the player input using a text field
-- [] Show what the player picked by highlighting the correct button
+- [x] Show what the player picked by highlighting the correct button
 - [] Add even more options (but avoid using 100 if statements)
 - [] Add complex rules
-- [] Have a countdown after player choice
 - [] Have a tie count
 
 ---
@@ -65,7 +64,7 @@
 ## To-do (fix)
 
 - [] comment js/scss
-- [] reset button
+- [x] reset button
 - [] improve readme
 
 ---
@@ -73,10 +72,11 @@
 
 - [] Add hidden power-up 
 - [] Add difficulty settings
+- [] Image responsiveness
 ---
 ## What have I learned?
 * Start with readme and think before doing
-* 
+* Commit more often
 
 ---
 
