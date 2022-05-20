@@ -1,6 +1,13 @@
 # Rock-paper-scissors-lizard-Spock
 
 ---
+[Click this link to play this Epic Game(s)(#NotSponsored)](https://dengian.github.io/Rock-paper-scissors-lizard-Spock/)
+
+---
+## MaTS (Meme about This Subject)
+![Meme](img.png)
+
+---
 ## What is this game about?
 
 * The goal of this exercise is to create a game called "Rock paper scissors lizard Spock" 
