@@ -66,6 +66,7 @@
 - [] comment js/scss
 - [x] reset button
 - [] improve readme
+- [] fix draw bug
 
 ---
 ## To-do (features)
